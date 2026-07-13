@@ -1,0 +1,29 @@
+# ---- secrets (NEVER commit) ----
+.env
+.env.*
+!.env.example
+
+# ---- python ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---- data & databases (regenerated from APIs; large) ----
+data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+output/
+
+# ---- trained models / caches (regenerated) ----
+models/
+*.joblib
+.cache/
+
+# ---- editor / OS / tooling ----
+.claude/
+.DS_Store
+.ipynb_checkpoints/
+*.log
