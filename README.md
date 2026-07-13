@@ -169,3 +169,8 @@ The per-family models are cached in `models/family_calibration.joblib` (rebuilt 
 pandas, numpy, scipy, scikit-learn, statsmodels, sqlalchemy, requests, httpx, curl_cffi,
 beautifulsoup4, lxml, rapidfuzz, joblib, python-dotenv, dash, plotly, apscheduler.
 (`pip install -r requirements.txt`)
+
+## Development log
+The stage-by-stage research notes, honest status reports, and open questions from the build
+live in **[`docs/`](docs/)** — including the negative results and verified-and-rejected data
+sources. They document the process, not just the outcome.
