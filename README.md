@@ -12,6 +12,38 @@ evidence in plain English, and surfaces everything in a Dash dashboard.
 
 ---
 
+## Dashboard
+
+The board ranks props by a **CLV-predictive standout score** (deliberately *not* raw model
+edge), with heat-coloring, per-prop verdicts, and confidence shown separately from edge.
+
+![Standout props board](docs/screenshots/01_soft_lines.png)
+
+Click any prop for a **plain-English breakdown** grounded in real feature values — and a
+side-by-side view of the raw model, the calibrated probability, the reasoning-layer decision,
+and the validation-adjusted trust:
+
+![Reasoning detail panel](docs/screenshots/02_reasoning_detail.png)
+
+<details>
+<summary><b>More views</b> — Player Detail, Model Health, DFS Entries, Correlated Pairs</summary>
+
+**Player Detail** — simulated outcome distribution per prop, with model vs sharp anchor:
+![Player Detail](docs/screenshots/03_player_detail.png)
+
+**Model Health** — honest per-family accuracy, calibration, and improvement recommendations:
+![Model Health](docs/screenshots/05_model_health.png)
+
+**DFS Entries** — correlation-aware 2–6 leg PrizePicks entries with correct payout EV:
+![DFS Entries](docs/screenshots/04_entries.png)
+
+**Correlated Pairs** — different-team, same-game pairs (game-environment correlation):
+![Correlated Pairs](docs/screenshots/06_pairs.png)
+
+</details>
+
+---
+
 ## The honest state (read this first)
 
 This project has been built with a strict "verify before you trust" discipline, and the
